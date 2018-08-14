@@ -108,6 +108,18 @@ html{
 	justify-content: center;
 	align-items: center;
 }
+.logo {
+	display: flex;
+	text-align:center;
+}
+.logo span{
+	display: flex;
+	text-align:center;
+	display: inline-block;
+	font-size: 38px;
+	padding-left: 10px;
+	margin: 2px;
+}
 .arrow-down{
 	text-align:center;
 	line-height: 50px;
@@ -116,7 +128,7 @@ html{
 }
 .table{
 	background-color: #f9fafc;
-	padding: 10rem;
+	padding: 11rem;
 }
 .table-header{
 	text-align:center;
@@ -214,4 +226,52 @@ html{
 .price-btn:hover{
 	background-color: #6e45e2;
 	color: #fff;
+}
+.panel{
+	text-align:center;
+	padding: 120px;
+	background: url(img/Group2.jpg) no-repeat center;
+}
+.panel-header p{
+	color: #fff;
+	font-size: 2rem;
+}
+.panel-header h2{
+	color: #fff;
+	font-size: 4rem;
+}
+.panel-btn{
+	background-color: #fff;
+	border:#9fa4af 1px solid;
+	color: #9fa4af;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 300;
+	padding: 1rem 4rem;
+	margin: 2rem auto;
+	border-radius: 100px;
+	transition: 0.5s;
+}
+.panel-btn:hover{
+	background-color: #6e45e2;
+	color: #fff;
+}
+.bottom{
+	text-align:center;
+	padding: 120px;
+}
+.get-startrtbtn{
+	margin-left: 60px;
+	border: 1px solid #9fa4af;
+	color: #9fa4af;
+	padding: 10px 20px;
+	border-radius: 100px;
+	text-transform: uppercase;
+}
+.get-startrtbtn:hover{
+	background-color: #6e45e2;
+	color: #fff;
+}
+.bottom{
+	padding: 5px;
 }
