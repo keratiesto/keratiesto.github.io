@@ -274,4 +274,13 @@ html{
 }
 .bottom{
 	padding: 5px;
+	padding-left: 60px;
+}
+.icons{
+	float: right;
+	padding-right: 260px;
+}
+.bottom p{
+	float: left;
+	padding-left: 60px;
 }
