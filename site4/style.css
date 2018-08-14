@@ -50,7 +50,6 @@ html{
 	list-style: none;
 }
 .menu li{
-	float: left;
 	display: block;
 	margin-right: 41px;
 }
