@@ -73,6 +73,27 @@ img{
 	font-weight: 700;
 }
 .main-text__subtitle{
+	margin-bottom: 27px;
 	font-size: 28px;
 	font-weight: 300;
+}
+.main-text__form{
+	padding: 30px 27px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.form-title{
+	margin-bottom: 20px;
+	padding-right: 87px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 30px;
+}
+.form-title_important{
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.form__input{
+	border-radius: 4px;
+	border: none;
+	padding: 20px;
 }
