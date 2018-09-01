@@ -200,3 +200,117 @@ span{
 	line-height: 30px;
 	text-align: center;
 }
+.feature{
+	background-color: #f4f4f4;
+	padding-top: 49px;
+	padding-bottom: 55px;
+}
+.numbers{
+	margin-bottom: 37px;
+	text-align: center;
+}
+.numbers-block{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+.numbers-block__title{
+	font-size: 36px;
+	font-weight: 900;
+	color: #fd9c28;
+	margin-bottom: 10px;
+}
+sup{
+	font-size: 18px;
+}
+.numbers-block__text{
+	font-size: 16px;
+	font-weight: 300;
+}
+.features-blocks{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.features-block{
+	align-items: center;
+	display: flex;
+	flex-basis: 31%;
+	background-color: #fff;
+	padding: 28px 19px;
+	margin-bottom: 30px;
+}
+.features-block__img{
+	flex-basis: 40%;
+	margin-right: 9px;
+}
+.features-block__title{
+	font-size: 15px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.features-block__descr{
+	font-size: 14px;
+	font-weight: 400;
+}
+.section-title{
+	font-size: 27px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 29px;
+}
+.section-title::after{
+	content: '';
+	margin-top: 12px;
+	display: block;
+	height: 6px;
+	background: url(../img/logop.png) center no-repeat;
+}
+.products{
+	padding-top: 57px;
+	padding-bottom: 73px;
+}
+.products-block{
+	text-align: center;
+	margin-bottom: 35px;
+}
+.products-block__img{
+	margin-bottom: 19px;
+}
+.products-block__title{
+	margin-bottom: 28px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.button-o{
+	background-color: transparent;
+	color: #373737;
+	border: 1px solid rgba(#373737, 0.5);
+	font-size: 14px;
+	font-weight: 400;
+	padding: 13px 22px;
+	border-radius: 5px;
+	outline: none;
+	margin-right: 12px;
+}
+.button-o:hover{
+	background-color: green;
+	cursor: pointer;
+	outline: none;
+}
+.button{
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	background-color: #fd9c28;
+	border: 1px solid transparent;
+	padding: 13px 22px;
+	border-radius: 5px;
+	outline: none;
+}
+.button:hover{
+	background-color: green;
+	cursor: pointer;
+	outline: none;
+}
