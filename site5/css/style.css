@@ -107,6 +107,8 @@ img{
 	vertical-align: middle;
 	flex-basis: 50%;
 	outline: none;
+	width: 100%;
+	max-width: 365px;
 }
 .form-small{
 	font-size: 14px;
@@ -313,4 +315,94 @@ sup{
 	background-color: green;
 	cursor: pointer;
 	outline: none;
+}
+.offer{
+	position: relative;
+	padding-top: 64px;
+	padding-bottom: 69px;
+	color: #fff;
+	background: grey url(../img/karton2.jpg) center no-repeat;
+	z-index: 1;
+	text-align: center;
+	background-size: cover;
+}
+.offer::before{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -1;
+}/*Затемненние фонового изображения на главном экране*/
+.offer-title{
+	font-size: 32px;
+	font-weight: 300;
+}
+.offer-title_small{
+	font-size: 26px;
+	display: block;
+	margin-bottom: 19px;
+}
+.offer-form_label{
+	display: block;
+	margin-bottom: 17px;
+	font-size: 20px;
+	font-weight: 300;
+}
+.offer-form__input{
+	display: block;
+	margin: auto;
+	margin-bottom: 12px;
+}
+.offer-form__button{
+	margin-bottom: 9px;
+}
+.production{
+	padding-top: 87px;
+	padding-bottom: 90px;
+}
+.production-slider{
+	position: relative;
+	z-index: 2;
+}
+.production-slider_top{
+	margin-bottom: 13px;
+	height: 377px;
+	overflow-y: hidden;
+}
+.production-slider_bottom{
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 78px;
+	overflow-y: hidden;
+}
+.production-text{
+	max-width: 379px;
+}
+.production-slider_top img{
+	margin: 0 6px;
+}
+.production-text__title{
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	background-color:  yellow;
+	margin-left: -10%;
+	margin-top: 19px;
+	margin-bottom: 28px;
+	padding-left: 10%;
+	width: 110%;
+	z-index: -1;
+	font-size: 28px;
+	font-weight: 300;
+}
+.production-text__descr{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: justify;
 }
