@@ -481,3 +481,20 @@ sup{
 		width: 100%;
 		margin-bottom: 24px;
 	}
+	.features-blocks{
+		flex-direction: column;
+	}
+	.production-slider_bottom{
+		height: auto;
+	}
+	.production-text__title{
+		margin-left: 0;
+		padding-left: 0;
+		width: 100%;
+	}
+	.production-text{
+		text-align: center;
+	}
+	.production-text__descr{
+		text-align: center;
+	}
