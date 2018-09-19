@@ -424,6 +424,24 @@ sup{
 	padding-top: 49px;
 	padding-bottom: 445px;
 }
+.contacts{
+	padding-top: 73px;
+	padding-bottom: 87px;
+}
+.contacts-block{
+	background-color: #fff;
+	padding-top: 33px;
+	padding-bottom: 39px;
+	padding-left: 34px;
+	padding-right: 34px;
+}
+.contacts-block__title{
+	display: block;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 8px;
+	margin-top: 30px;
+}
 
 
 @media (max-width: 576px) {
