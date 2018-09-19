@@ -414,7 +414,16 @@ sup{
 	line-height: 24px;
 	text-align: justify;
 }
-
+.feedback-slider__item img{
+		float: left;
+		margin-left: 73px;
+		padding-bottom: 35px;
+	}
+.feedback{
+	background-color: #f4f4f4;
+	padding-top: 49px;
+	padding-bottom: 445px;
+}
 
 
 @media (max-width: 576px) {
@@ -498,3 +507,13 @@ sup{
 	.production-text__descr{
 		text-align: center;
 	}
+	.feedback-slider__item img{
+		float: left;
+		margin-left: 83px;
+		padding-bottom: 35px;
+	}
+	.feedback{
+	background-color: #f4f4f4;
+	padding-top: 49px;
+	padding-bottom: 1260px;
+}
