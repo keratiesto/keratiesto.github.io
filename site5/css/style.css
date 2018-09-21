@@ -425,14 +425,18 @@ sup{
 	padding-bottom: 445px;
 }
 .contacts{
-	padding-top: 73px;
-	padding-bottom: 87px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	position: relative;
 }
 .contacts-block{
+	position: absolute;
+	left: 10%;
+	top: 17%;
 	background-color: #fff;
 	padding-top: 33px;
 	padding-bottom: 39px;
-	padding-left: 34px;
+	padding-left: 60px;
 	padding-right: 34px;
 }
 .contacts-block__title{
@@ -440,8 +444,20 @@ sup{
 	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 8px;
-	margin-top: 30px;
+	margin-top: 8px;
 }
+.contacts-block__text{
+	margin-bottom: 20px;
+}
+.contacts-block__title img{
+	position: absolute;
+	left: 30px;
+	padding-top: 4px;
+}
+
+
+
+
 
 
 @media (max-width: 576px) {
